@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         Math.pow(mouseX - charCenterX, 2) + Math.pow(mouseY - charCenterY, 2)
       );
 
-      if (distance <= 200) {
+      if (distance <= 160) {
         span.style.color = "black";
       } else {
         span.style.color = "white";
